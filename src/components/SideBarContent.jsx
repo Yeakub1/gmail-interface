@@ -1,17 +1,18 @@
 import Box from "@mui/material/Box";
-import inbox from "../assets/images/inbox.png";
-import send from "../assets/images/send.png";
-import snooze from "../assets/images/snooze.png";
-import star from "../assets/images/star.png";
+import MailIcon from "@mui/icons-material/Mail";
+import AccessTimeIcon from "@mui/icons-material/AccessTime";
+import SendIcon from "@mui/icons-material/Send";
+import StarBorderIcon from "@mui/icons-material/StarBorder";
 import Message from "./Message";
-import FadeMenu from "./More";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+// import FadeMenu from "./More";
 
 function Leftpanel() {
   return (
     <Box
       sx={{
         paddingTop: "90px",
-        position: 'fixed',
+        position: "fixed",
         backgroundColor: "#F9F9F9",
         minHeight: "100vh",
         width: "245px",
@@ -27,7 +28,7 @@ function Leftpanel() {
           alignItems: "center",
         }}
       >
-        <img src={inbox} style={{ width: "22px", marginLeft: "32px" }} />
+        <MailIcon style={{ width: "22px", marginLeft: "32px" }} />
         <span
           style={{
             cursor: "pointer",
@@ -48,7 +49,7 @@ function Leftpanel() {
           alignItems: "center",
         }}
       >
-        <img src={star} style={{ width: "22px", marginLeft: "32px" }} />
+        <StarBorderIcon style={{ width: "22px", marginLeft: "32px" }} />
         <span
           style={{
             cursor: "pointer",
@@ -69,7 +70,7 @@ function Leftpanel() {
           alignItems: "center",
         }}
       >
-        <img src={snooze} style={{ width: "22px", marginLeft: "32px" }} />
+        <AccessTimeIcon style={{ width: "22px", marginLeft: "32px" }} />
         <span
           style={{
             cursor: "pointer",
@@ -90,7 +91,7 @@ function Leftpanel() {
           alignItems: "center",
         }}
       >
-        <img src={send} style={{ width: "22px", marginLeft: "32px" }} />
+        <SendIcon style={{ width: "22px", marginLeft: "32px" }} />
         <span
           style={{
             cursor: "pointer",
@@ -102,7 +103,28 @@ function Leftpanel() {
           Send
         </span>
       </Box>
-      <FadeMenu />
+      <Box
+        sx={{
+          marginTop: "19px",
+          marginLeft: "10px",
+          width: "212px",
+          display: "flex",
+          alignItems: "center",
+        }}
+      >
+        <KeyboardArrowDownIcon style={{ width: "22px", marginLeft: "32px" }} />
+        <span
+          style={{
+            cursor: "pointer",
+            marginLeft: "27px",
+            fontWeight: "400",
+            fontSize: "22px",
+          }}
+        >
+          More
+        </span>
+      </Box>
+      {/* <FadeMenu /> */}
     </Box>
   );
 }

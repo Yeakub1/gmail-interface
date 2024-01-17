@@ -30,7 +30,7 @@ export default function FadeMenu() {
           alignItems: "center",
         }}
       >
-        <KeyboardArrowDownIcon style={{ width: "1.2vw", marginLeft: "2vw" }} />
+        <KeyboardArrowDownIcon style={{ width: "22px", marginLeft: "32px" }} />
         <span
           style={{
             cursor: "pointer",
@@ -65,7 +65,7 @@ export default function FadeMenu() {
             alignItems: "center",
           }}
         >
-          {/* <img src={inbox} style={{ width: "1.2vw", marginLeft: "2vw" }} /> */}
+          {/* <img src={inbox} style={{ width: "22px", marginLeft: "32px" }} */}
           <span
             style={{
               cursor: "pointer",
@@ -87,7 +87,7 @@ export default function FadeMenu() {
             alignItems: "center",
           }}
         >
-          {/* <img src={inbox} style={{ width: "1.2vw", marginLeft: "2vw" }} /> */}
+          {/* <img src={inbox} style={{ width: "22px", marginLeft: "32px" }} */}
           <span
             style={{
               cursor: "pointer",
@@ -109,7 +109,7 @@ export default function FadeMenu() {
             alignItems: "center",
           }}
         >
-          {/* <img src={inbox} style={{ width: "1.2vw", marginLeft: "2vw" }} /> */}
+          {/* <img src={inbox} style={{ width: "22px", marginLeft: "32px" }} */}
           <span
             style={{
               cursor: "pointer",

@@ -81,6 +81,9 @@ export default function Middle() {
         <Post />
         <Post />
         <Post />
+        <Post />
+        <Post />
+        <Post />
         
       </CustomTabPanel>
     </Box>
